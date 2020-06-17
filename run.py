@@ -100,7 +100,6 @@ app.layout = dbc.Container(
 
 @app.callback(
     Output(component_id = "violin_graph", component_property = "figure"),
-    
     [Input(component_id = "cat_variable", component_property = "value")],
 )
 
@@ -122,6 +121,31 @@ def update_graph(cat):
     layout = {"xaxis": {"title": cat}, "yaxis": {"title": "Price"}}
 
     return go.Figure(data=data, layout=layout)
+
+
+@app.callback(
+    Output(component_id = "scatter_graph", component_property = "figure"),
+    [Input(component_id = "num_variable", component_property = "value")]
+)
+
+
+def update_scatter(num):
+    print(num)
+    
+    df_local = df.loc[:, [num, "Price"]]
+    
+    data = [
+        go.Scatter(
+            x = df_local.loc[:, num],
+            y = df_local.loc[:, "Price"],
+            mode = "markers"
+            )
+    ]
+    
+    layout = {"xaxis": {"title": num}, "yaxis" : {"title": "Price"}}
+    
+    return go.Figure(data = data, layout = layout)
+
 
 
 # ------------------------------------------------------------------------------
