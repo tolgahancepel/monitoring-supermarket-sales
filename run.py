@@ -10,6 +10,8 @@ from dash.dependencies import Input, Output
 
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
 
+server = app.server
+
 # ------------------------------------------------------------------------------
 # Import and clean data (importing csv into pandas)
 
