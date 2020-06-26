@@ -10,4 +10,4 @@ Dataset: https://www.kaggle.com/aungpyaeap/supermarket-sales
 2. Run app.py to launch a local Dash server to host the Dash app. A link will appear in your console; click this to use the Dash app.
 
 ## Screenshot
-![demo.gif](demo.gif)
+![demo.png](demo.png)

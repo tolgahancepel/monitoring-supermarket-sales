@@ -139,7 +139,7 @@ app.layout = html.Div(
                 html.A(
                     id="gh-link",
                     children=["View on GitHub"],
-                    href="#",
+                    href="https://github.com/tolgahancepel/monitoring-supermarket-sales",
                     style={"color": "white", "border": "solid 1px white"},
                 ),
                 html.Img(src=app.get_asset_url("GitHub-Mark-Light-64px.png")),
