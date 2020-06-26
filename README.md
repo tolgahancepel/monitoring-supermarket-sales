@@ -1,10 +1,9 @@
 # Monitoring Supermarket Sales
 by Tolgahan Çepel
 ## Description
-This dash app visualizes supermarket sales data to get insights from it.
+This dash application visualizes supermarket sales data to get insights from it. Even there are more details to show, because it is my first dash app, I have deployed a clean version.
 
 ## Installation and Usage
-This dash app visualizes supermarket sales data to get insights from it.
 1. Install all dependencies listed in requirements.txt - all packages are pip-installable.
 2. Run app.py to launch a local Dash server to host the Dash app. A link will appear in your console; click this to use the Dash app.
 
