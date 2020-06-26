@@ -1,5 +1,6 @@
 # Monitoring Supermarket Sales
-http://cepel-supermarket-sales.herokuapp.com/ | by Tolgahan Çepel
+Live: http://cepel-supermarket-sales.herokuapp.com/ </br>
+by Tolgahan Çepel
 ## Description
 This dash application visualizes supermarket sales data to get insights from it. Even there are more details to show, because it is my first dash app, I have deployed a clean version.
 
